@@ -15,6 +15,7 @@ body{
     width: 100%;
     padding-top: 20px;
     justify-content: center;
+    padding-bottom: 50px;
 
 }
 
@@ -37,10 +38,11 @@ aside {
     /* background-color: yellow; */
     width: 25%;
     right: 0;
-    top: 0;
+    top:0;
     position: fixed;
     padding-right: 20px;
     padding-left: 20px;
+    padding-bottom: 50px;
 }
 
 .title{
@@ -82,4 +84,28 @@ ul li{
     font-weight: 900;
     text-align: center;
     padding-bottom: 20px;
+}
+
+figure{
+    text-align: center;
+}
+#my-img{
+    width: 80%;
+}
+@media (min-width: 320px) and (max-width: 767px){ 
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+        position: static;
+        order: -1;
+    }
+    #my-img{
+        width: 50%;
+    }
 }
