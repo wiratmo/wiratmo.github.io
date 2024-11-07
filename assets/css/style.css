@@ -92,6 +92,18 @@ figure{
 #my-img{
     width: 80%;
 }
+#social-media{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fa-instagram:hover, .fa-linkedin:hover, .fa-github:hover{
+    color: #006d77;
+}
+#social-media a{
+    color: black;
+}
 @media (min-width: 320px) and (max-width: 767px){ 
     main{
         display: flex;
